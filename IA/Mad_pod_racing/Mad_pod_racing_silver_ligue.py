@@ -47,7 +47,7 @@ while True:
         last_checkpoint = checkpoint
 
     # Estimation simple de la vitesse: position actuelle - position precedente.
-    if last_x is None:
+    if last_x is None or last_y is None:
         speed_x = 0
         speed_y = 0
     else:
