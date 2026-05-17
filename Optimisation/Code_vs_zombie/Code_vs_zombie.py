@@ -27,8 +27,10 @@ while True:
     
     cible_x = ash_x
     cible_y = ash_y
+    
     meilleur_humain = None
     distance_min_ash_humain = float('inf')
+    danger_immediat = False # Pour savoir si un humain est vraiment menacé
 
     for h in humains:
         # 1. Trouver le zombie le plus proche de CET humain
@@ -38,36 +40,50 @@ while True:
             if dist_hz < dist_zombie_carre_max:
                 dist_zombie_carre_max = dist_hz
         
-        # On calcule les vraies distances (avec racine carrée) pour estimer les tours
         dist_zombie_humain = math.sqrt(dist_zombie_carre_max)
         dist_ash_humain = math.sqrt((ash_x - h["x"])**2 + (ash_y - h["y"])**2)
 
-        # 2. Calculer le nombre de tours approximatifs avant l'impact
-        # Le zombie avance de 400 par tour
+        # Calcul des tours
         tours_zombie = dist_zombie_humain / 400
-        
-        # Ash avance de 1000 par tour, et tire à 2000 de distance.
-        # Donc la distance effective à parcourir est (dist_ash_humain - 2000)
         tours_ash = max(0, (dist_ash_humain - 2000)) / 1000
 
-        # 3. SI ASH PEUT ARRIVER À TEMPS (ou en même temps)
+        # Si Ash peut arriver à temps
         if tours_ash <= tours_zombie:
-            # Parmi les humains sauvables, on choisit celui le plus proche de Ash
-            # (C'est la stratégie la plus sûre pour en garder au moins un en vie)
+            # On considère qu'un humain est en "danger immédiat" 
+            # si un zombie peut l'atteindre en moins de, disons, 6 tours.
+            if tours_zombie < 6:
+                danger_immediat = True
+            
             if dist_ash_humain < distance_min_ash_humain:
                 distance_min_ash_humain = dist_ash_humain
                 meilleur_humain = h
 
-    # 4. Assigner la cible
-    if meilleur_humain is not None:
+    # --- APPLICATION DE LA STRATÉGIE ---
+
+    # CAS 1 : Un humain est sauvable ET en danger immédiat -> On va le protéger
+    if meilleur_humain is not None and danger_immediat:
         cible_x = meilleur_humain["x"]
         cible_y = meilleur_humain["y"]
-    else:
-        # Si aucun humain n'est sauvable (scénario catastrophe), 
-        # on fonce quand même sur le premier humain de la liste par défaut
-        if len(humains) > 0:
-            cible_x = humains[0]["x"]
-            cible_y = humains[0]["y"]
+
+    # CAS 2 (Ton idée) : Tout le monde est en sécurité -> On va chercher le zombie le plus proche de Ash
+    elif len(zombies) > 0:
+        dist_min_zombie = float('inf')
+        proche_zombie = zombies[0]
+        
+        for z in zombies:
+            dist_ash_z = (ash_x - z["x"])**2 + (ash_y - z["y"])**2
+            if dist_ash_z < dist_min_zombie:
+                dist_min_zombie = dist_ash_z
+                proche_zombie = z
+        
+        # On fonce sur le zombie le plus proche pour nettoyer la carte
+        cible_x = proche_zombie["x"]
+        cible_y = proche_zombie["y"]
+        
+    # CAS 3 : Plus de zombies, ou situation imprévue -> On reste sur place ou va vers le premier humain
+    elif len(humains) > 0:
+        cible_x = humains[0]["x"]
+        cible_y = humains[0]["y"]
 
     # Action
     print(f"{cible_x} {cible_y}")
