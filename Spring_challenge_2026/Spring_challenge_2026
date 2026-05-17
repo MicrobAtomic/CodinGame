@@ -1,0 +1,138 @@
+import sys
+import math
+
+# --- PARAMÈTRES DE STRATÉGIE ---
+MAX_TROLLS = 4  # On limite la taille de l'armée pour économiser nos points !
+
+# 1. ANALYSE DE LA CARTE
+width, height = [int(i) for i in input().split()]
+base_x, base_y = 0, 0
+mines_fer = []
+
+for y in range(height):
+    line = input()
+    if '0' in line:
+        base_x = line.index('0')
+        base_y = y
+    
+    for x, char in enumerate(line):
+        if char == '+':
+            mines_fer.append({"x": x, "y": y})
+
+# game loop
+while True:
+    mes_ressources = []
+    for i in range(2):
+        resources = [int(j) for j in input().split()]
+        if i == 0:
+            mes_ressources = resources 
+
+    plums, lemons, apples, bananas, iron, wood = mes_ressources
+
+    trees_count = int(input())
+    arbres = []
+    for i in range(trees_count):
+        inputs = input().split()
+        arbres.append({
+            "type": inputs[0],
+            "x": int(inputs[1]),
+            "y": int(inputs[2]),
+            "size": int(inputs[3]),
+            "health": int(inputs[4]),
+            "fruits": int(inputs[5])
+        })
+
+    trolls_count = int(input())
+    mes_trolls = []
+    for i in range(trolls_count):
+        t_data = [int(j) for j in input().split()]
+        if t_data[1] == 0:
+            mes_trolls.append({
+                "id": t_data[0],
+                "x": t_data[2],
+                "y": t_data[3],
+                "capacity": t_data[5],
+                "chopPower": t_data[7],
+                "charge": sum(t_data[8:14])
+            })
+
+    actions = []
+    nb_trolls = len(mes_trolls)
+    
+    # Coût pour recruter un Troll
+    cout_train = nb_trolls + 1
+    
+    # On manque de fer SEULEMENT si on n'a pas encore atteint notre limite de Trolls !
+    manque_fer = (iron < cout_train) and (nb_trolls < MAX_TROLLS)
+
+    for troll in mes_trolls:
+        t_id = troll["id"]
+        
+        # 1. RETOUR A LA BASE (Sac plein)
+        if troll["charge"] >= troll["capacity"]:
+            dist_base = abs(troll["x"] - base_x) + abs(troll["y"] - base_y)
+            if dist_base <= 1:
+                actions.append(f"DROP {t_id}")
+            else:
+                actions.append(f"MOVE {t_id} {base_x} {base_y}")
+            continue
+
+        # 2. IA DE SCORING
+        best_score = -1
+        best_action = f"MOVE {t_id} {base_x} {base_y}" 
+        
+        # -- Evaluation des Arbres (Fruits & Bois) --
+        for a in arbres:
+            dist = abs(troll["x"] - a["x"]) + abs(troll["y"] - a["y"])
+            
+            # A) Récolte de Fruits
+            if a["fruits"] > 0:
+                weight = 60 # Pour marquer des points (ou servir au recrutement)
+                
+                # Priorité absolue si on a besoin de recruter (et qu'on n'a pas atteint la limite)
+                if nb_trolls < MAX_TROLLS:
+                    if a["type"] == "PLUM" and (plums < cout_train): weight = 500
+                    elif a["type"] == "LEMON" and (lemons < cout_train): weight = 500
+                    elif a["type"] == "APPLE" and (apples < cout_train): weight = 500
+                    
+                score = (weight * a["fruits"]) / (dist + 1)
+                
+                if score > best_score:
+                    best_score = score
+                    if dist == 0: best_action = f"HARVEST {t_id}"
+                    else: best_action = f"MOVE {t_id} {a['x']} {a['y']}"
+                        
+            # B) Coupe de Bois (Rapporte 4 points !)
+            if troll["chopPower"] > 0 and a["fruits"] == 0:
+                weight = 150 # Le bois est très rentable
+                score = (weight * a["size"]) / (dist + 1)
+                
+                if score > best_score:
+                    best_score = score
+                    if dist == 0: best_action = f"CHOP {t_id}"
+                    else: best_action = f"MOVE {t_id} {a['x']} {a['y']}"
+
+        # -- Evaluation du Fer --
+        if troll["chopPower"] > 0 and manque_fer:
+            for fer in mines_fer:
+                dist = abs(troll["x"] - fer["x"]) + abs(troll["y"] - fer["y"])
+                weight = 1000 # On fonce si on en a besoin pour notre quota
+                score = weight / (dist + 1)
+                
+                if score > best_score:
+                    best_score = score
+                    if dist <= 1: best_action = f"MINE {t_id}"
+                    else: best_action = f"MOVE {t_id} {fer['x']} {fer['y']}"
+
+        actions.append(best_action)
+
+    # 3. RECRUTEMENT CONTRÔLÉ (Le grand changement est ici !)
+    if nb_trolls < MAX_TROLLS:
+        if plums >= cout_train and lemons >= cout_train and apples >= cout_train and iron >= cout_train:
+            actions.append("TRAIN 1 1 1 1")
+
+    # ENVOI DES ACTIONS
+    if len(actions) > 0:
+        print(";".join(actions))
+    else:
+        print("WAIT")
