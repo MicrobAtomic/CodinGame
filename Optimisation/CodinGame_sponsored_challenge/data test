@@ -1,0 +1,3024 @@
+Sortie d'erreur :
+ first_init_input:  29
+ second_init_input:  29
+ third_init_input:  5
+ 
+ first_input:  #
+ second_input:  _
+ third_input:  #
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  13
+ 
+ fifth_input:  15
+ sixth_input:  13
+ 
+ fifth_input:  13
+ sixth_input:  15
+ 
+ fifth_input:  16
+ sixth_input:  16
+ 
+ fifth_input:  21
+ sixth_input:  9
+ 
+Sortie standard :
+A
+001
+121
+Sortie d'erreur :
+ first_input:  _
+ second_input:  _
+ third_input:  #
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  13
+ 
+ fifth_input:  16
+ sixth_input:  13
+ 
+ fifth_input:  12
+ sixth_input:  15
+ 
+ fifth_input:  17
+ sixth_input:  16
+ 
+ fifth_input:  22
+ sixth_input:  9
+ 
+Sortie standard :
+A
+002
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  _
+ third_input:  #
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  13
+ 
+ fifth_input:  17
+ sixth_input:  13
+ 
+ fifth_input:  11
+ sixth_input:  15
+ 
+ fifth_input:  18
+ sixth_input:  16
+ 
+ fifth_input:  23
+ sixth_input:  9
+ 
+Sortie standard :
+A
+003
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  13
+ 
+ fifth_input:  18
+ sixth_input:  13
+ 
+ fifth_input:  10
+ sixth_input:  15
+ 
+ fifth_input:  19
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+004
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  13
+ 
+ fifth_input:  18
+ sixth_input:  12
+ 
+ fifth_input:  9
+ sixth_input:  15
+ 
+ fifth_input:  20
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+005
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  12
+ 
+ fifth_input:  18
+ sixth_input:  11
+ 
+ fifth_input:  8
+ sixth_input:  15
+ 
+ fifth_input:  21
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+006
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  11
+ 
+ fifth_input:  18
+ sixth_input:  10
+ 
+ fifth_input:  8
+ sixth_input:  16
+ 
+ fifth_input:  21
+ sixth_input:  17
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+007
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  10
+ 
+ fifth_input:  18
+ sixth_input:  9
+ 
+ fifth_input:  8
+ sixth_input:  17
+ 
+ fifth_input:  21
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+008
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  9
+ 
+ fifth_input:  19
+ sixth_input:  9
+ 
+ fifth_input:  8
+ sixth_input:  18
+ 
+ fifth_input:  20
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+009
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  9
+ 
+ fifth_input:  20
+ sixth_input:  9
+ 
+ fifth_input:  8
+ sixth_input:  19
+ 
+ fifth_input:  19
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+010
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  9
+ 
+ fifth_input:  20
+ sixth_input:  8
+ 
+ fifth_input:  8
+ sixth_input:  20
+ 
+ fifth_input:  18
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+011
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  9
+ 
+ fifth_input:  20
+ sixth_input:  7
+ 
+ fifth_input:  7
+ sixth_input:  20
+ 
+ fifth_input:  18
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+012
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  9
+ 
+ fifth_input:  20
+ sixth_input:  6
+ 
+ fifth_input:  6
+ sixth_input:  20
+ 
+ fifth_input:  18
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+013
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  10
+ 
+ fifth_input:  19
+ sixth_input:  6
+ 
+ fifth_input:  6
+ sixth_input:  21
+ 
+ fifth_input:  19
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+014
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  11
+ 
+ fifth_input:  18
+ sixth_input:  6
+ 
+ fifth_input:  6
+ sixth_input:  22
+ 
+ fifth_input:  20
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+015
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  12
+ 
+ fifth_input:  18
+ sixth_input:  5
+ 
+ fifth_input:  7
+ sixth_input:  22
+ 
+ fifth_input:  20
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+016
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  13
+ 
+ fifth_input:  18
+ sixth_input:  4
+ 
+ fifth_input:  8
+ sixth_input:  22
+ 
+ fifth_input:  20
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+017
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  13
+ 
+ fifth_input:  18
+ sixth_input:  3
+ 
+ fifth_input:  8
+ sixth_input:  21
+ 
+ fifth_input:  19
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+018
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  13
+ 
+ fifth_input:  18
+ sixth_input:  2
+ 
+ fifth_input:  8
+ sixth_input:  20
+ 
+ fifth_input:  18
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+019
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  13
+ 
+ fifth_input:  18
+ sixth_input:  1
+ 
+ fifth_input:  8
+ sixth_input:  19
+ 
+ fifth_input:  18
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+020
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  13
+ 
+ fifth_input:  17
+ sixth_input:  1
+ 
+ fifth_input:  8
+ sixth_input:  18
+ 
+ fifth_input:  18
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+021
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  12
+ 
+ fifth_input:  16
+ sixth_input:  1
+ 
+ fifth_input:  8
+ sixth_input:  17
+ 
+ fifth_input:  19
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+022
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  11
+ 
+ fifth_input:  15
+ sixth_input:  1
+ 
+ fifth_input:  8
+ sixth_input:  16
+ 
+ fifth_input:  20
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+023
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  10
+ 
+ fifth_input:  15
+ sixth_input:  2
+ 
+ fifth_input:  8
+ sixth_input:  15
+ 
+ fifth_input:  20
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+024
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  9
+ 
+ fifth_input:  15
+ sixth_input:  3
+ 
+ fifth_input:  9
+ sixth_input:  15
+ 
+ fifth_input:  20
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+025
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  9
+ 
+ fifth_input:  15
+ sixth_input:  4
+ 
+ fifth_input:  10
+ sixth_input:  15
+ 
+ fifth_input:  21
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+026
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  9
+ 
+ fifth_input:  15
+ sixth_input:  5
+ 
+ fifth_input:  11
+ sixth_input:  15
+ 
+ fifth_input:  21
+ sixth_input:  17
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+027
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  9
+ 
+ fifth_input:  15
+ sixth_input:  6
+ 
+ fifth_input:  12
+ sixth_input:  15
+ 
+ fifth_input:  21
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+028
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  9
+ 
+ fifth_input:  15
+ sixth_input:  7
+ 
+ fifth_input:  13
+ sixth_input:  15
+ 
+ fifth_input:  22
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+029
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  8
+ 
+ fifth_input:  15
+ sixth_input:  8
+ 
+ fifth_input:  13
+ sixth_input:  16
+ 
+ fifth_input:  23
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+030
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  7
+ 
+ fifth_input:  15
+ sixth_input:  9
+ 
+ fifth_input:  13
+ sixth_input:  17
+ 
+ fifth_input:  24
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+031
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  6
+ 
+ fifth_input:  15
+ sixth_input:  10
+ 
+ fifth_input:  13
+ sixth_input:  18
+ 
+ fifth_input:  25
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+032
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  5
+ 
+ fifth_input:  15
+ sixth_input:  11
+ 
+ fifth_input:  12
+ sixth_input:  18
+ 
+ fifth_input:  26
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+033
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  5
+ 
+ fifth_input:  15
+ sixth_input:  12
+ 
+ fifth_input:  11
+ sixth_input:  18
+ 
+ fifth_input:  26
+ sixth_input:  17
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+034
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  5
+ 
+ fifth_input:  15
+ sixth_input:  13
+ 
+ fifth_input:  11
+ sixth_input:  19
+ 
+ fifth_input:  26
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+035
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  5
+ 
+ fifth_input:  16
+ sixth_input:  13
+ 
+ fifth_input:  11
+ sixth_input:  20
+ 
+ fifth_input:  26
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+036
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  5
+ 
+ fifth_input:  17
+ sixth_input:  13
+ 
+ fifth_input:  11
+ sixth_input:  21
+ 
+ fifth_input:  26
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+037
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  4
+ 
+ fifth_input:  18
+ sixth_input:  13
+ 
+ fifth_input:  11
+ sixth_input:  22
+ 
+ fifth_input:  26
+ sixth_input:  21
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+038
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  3
+ 
+ fifth_input:  18
+ sixth_input:  12
+ 
+ fifth_input:  12
+ sixth_input:  22
+ 
+ fifth_input:  25
+ sixth_input:  21
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+039
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  2
+ 
+ fifth_input:  18
+ sixth_input:  11
+ 
+ fifth_input:  13
+ sixth_input:  22
+ 
+ fifth_input:  24
+ sixth_input:  21
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+040
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  1
+ 
+ fifth_input:  18
+ sixth_input:  10
+ 
+ fifth_input:  13
+ sixth_input:  21
+ 
+ fifth_input:  24
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+041
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  1
+ 
+ fifth_input:  18
+ sixth_input:  9
+ 
+ fifth_input:  13
+ sixth_input:  20
+ 
+ fifth_input:  23
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+042
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  1
+ 
+ fifth_input:  19
+ sixth_input:  9
+ 
+ fifth_input:  13
+ sixth_input:  19
+ 
+ fifth_input:  22
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+043
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  1
+ 
+ fifth_input:  20
+ sixth_input:  9
+ 
+ fifth_input:  13
+ sixth_input:  18
+ 
+ fifth_input:  21
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+044
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  1
+ 
+ fifth_input:  20
+ sixth_input:  8
+ 
+ fifth_input:  13
+ sixth_input:  17
+ 
+ fifth_input:  20
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+045
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  2
+ 
+ fifth_input:  20
+ sixth_input:  7
+ 
+ fifth_input:  13
+ sixth_input:  16
+ 
+ fifth_input:  19
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+046
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  3
+ 
+ fifth_input:  20
+ sixth_input:  6
+ 
+ fifth_input:  13
+ sixth_input:  15
+ 
+ fifth_input:  18
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+047
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  4
+ 
+ fifth_input:  19
+ sixth_input:  6
+ 
+ fifth_input:  12
+ sixth_input:  15
+ 
+ fifth_input:  18
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+048
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  5
+ 
+ fifth_input:  18
+ sixth_input:  6
+ 
+ fifth_input:  11
+ sixth_input:  15
+ 
+ fifth_input:  18
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+049
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  6
+ 
+ fifth_input:  18
+ sixth_input:  5
+ 
+ fifth_input:  10
+ sixth_input:  15
+ 
+ fifth_input:  19
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+050
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  7
+ 
+ fifth_input:  18
+ sixth_input:  4
+ 
+ fifth_input:  9
+ sixth_input:  15
+ 
+ fifth_input:  20
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+051
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  8
+ 
+ fifth_input:  18
+ sixth_input:  3
+ 
+ fifth_input:  8
+ sixth_input:  15
+ 
+ fifth_input:  20
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+052
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  9
+ 
+ fifth_input:  18
+ sixth_input:  2
+ 
+ fifth_input:  8
+ sixth_input:  16
+ 
+ fifth_input:  20
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+053
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  10
+ 
+ fifth_input:  18
+ sixth_input:  1
+ 
+ fifth_input:  8
+ sixth_input:  17
+ 
+ fifth_input:  21
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+054
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  11
+ 
+ fifth_input:  19
+ sixth_input:  1
+ 
+ fifth_input:  8
+ sixth_input:  18
+ 
+ fifth_input:  22
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+055
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  12
+ 
+ fifth_input:  20
+ sixth_input:  1
+ 
+ fifth_input:  8
+ sixth_input:  19
+ 
+ fifth_input:  22
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+056
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  13
+ 
+ fifth_input:  21
+ sixth_input:  1
+ 
+ fifth_input:  8
+ sixth_input:  20
+ 
+ fifth_input:  22
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+057
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  13
+ 
+ fifth_input:  22
+ sixth_input:  1
+ 
+ fifth_input:  8
+ sixth_input:  21
+ 
+ fifth_input:  23
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+058
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  13
+ 
+ fifth_input:  23
+ sixth_input:  1
+ 
+ fifth_input:  8
+ sixth_input:  22
+ 
+ fifth_input:  24
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+059
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  13
+ 
+ fifth_input:  24
+ sixth_input:  1
+ 
+ fifth_input:  9
+ sixth_input:  22
+ 
+ fifth_input:  24
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+060
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  13
+ 
+ fifth_input:  24
+ sixth_input:  2
+ 
+ fifth_input:  10
+ sixth_input:  22
+ 
+ fifth_input:  24
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+061
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  12
+ 
+ fifth_input:  24
+ sixth_input:  3
+ 
+ fifth_input:  11
+ sixth_input:  22
+ 
+ fifth_input:  23
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+062
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  11
+ 
+ fifth_input:  24
+ sixth_input:  4
+ 
+ fifth_input:  12
+ sixth_input:  22
+ 
+ fifth_input:  22
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+063
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  10
+ 
+ fifth_input:  24
+ sixth_input:  5
+ 
+ fifth_input:  13
+ sixth_input:  22
+ 
+ fifth_input:  22
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+064
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  9
+ 
+ fifth_input:  24
+ sixth_input:  6
+ 
+ fifth_input:  13
+ sixth_input:  21
+ 
+ fifth_input:  22
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+065
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  9
+ 
+ fifth_input:  23
+ sixth_input:  6
+ 
+ fifth_input:  13
+ sixth_input:  20
+ 
+ fifth_input:  23
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+066
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  9
+ 
+ fifth_input:  22
+ sixth_input:  6
+ 
+ fifth_input:  13
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+067
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  9
+ 
+ fifth_input:  22
+ sixth_input:  7
+ 
+ fifth_input:  13
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+068
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  9
+ 
+ fifth_input:  22
+ sixth_input:  8
+ 
+ fifth_input:  13
+ sixth_input:  17
+ 
+ fifth_input:  24
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+069
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  8
+ 
+ fifth_input:  22
+ sixth_input:  9
+ 
+ fifth_input:  13
+ sixth_input:  16
+ 
+ fifth_input:  23
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+070
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  7
+ 
+ fifth_input:  21
+ sixth_input:  9
+ 
+ fifth_input:  13
+ sixth_input:  15
+ 
+ fifth_input:  22
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+071
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  6
+ 
+ fifth_input:  20
+ sixth_input:  9
+ 
+ fifth_input:  12
+ sixth_input:  15
+ 
+ fifth_input:  22
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+072
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  5
+ 
+ fifth_input:  19
+ sixth_input:  9
+ 
+ fifth_input:  11
+ sixth_input:  15
+ 
+ fifth_input:  22
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+073
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  5
+ 
+ fifth_input:  18
+ sixth_input:  9
+ 
+ fifth_input:  10
+ sixth_input:  15
+ 
+ fifth_input:  21
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+074
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  5
+ 
+ fifth_input:  18
+ sixth_input:  10
+ 
+ fifth_input:  9
+ sixth_input:  15
+ 
+ fifth_input:  20
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+075
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  5
+ 
+ fifth_input:  18
+ sixth_input:  11
+ 
+ fifth_input:  8
+ sixth_input:  15
+ 
+ fifth_input:  19
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+076
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  5
+ 
+ fifth_input:  18
+ sixth_input:  12
+ 
+ fifth_input:  8
+ sixth_input:  16
+ 
+ fifth_input:  18
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+077
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  4
+ 
+ fifth_input:  18
+ sixth_input:  13
+ 
+ fifth_input:  8
+ sixth_input:  17
+ 
+ fifth_input:  18
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+078
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  3
+ 
+ fifth_input:  17
+ sixth_input:  13
+ 
+ fifth_input:  8
+ sixth_input:  18
+ 
+ fifth_input:  18
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+079
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  2
+ 
+ fifth_input:  16
+ sixth_input:  13
+ 
+ fifth_input:  8
+ sixth_input:  19
+ 
+ fifth_input:  19
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+080
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  1
+ 
+ fifth_input:  15
+ sixth_input:  13
+ 
+ fifth_input:  8
+ sixth_input:  20
+ 
+ fifth_input:  20
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+081
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  1
+ 
+ fifth_input:  15
+ sixth_input:  12
+ 
+ fifth_input:  7
+ sixth_input:  20
+ 
+ fifth_input:  20
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+082
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  1
+ 
+ fifth_input:  15
+ sixth_input:  11
+ 
+ fifth_input:  6
+ sixth_input:  20
+ 
+ fifth_input:  20
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+083
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  1
+ 
+ fifth_input:  15
+ sixth_input:  10
+ 
+ fifth_input:  6
+ sixth_input:  21
+ 
+ fifth_input:  21
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+084
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  1
+ 
+ fifth_input:  15
+ sixth_input:  9
+ 
+ fifth_input:  6
+ sixth_input:  22
+ 
+ fifth_input:  21
+ sixth_input:  17
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+085
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  2
+ 
+ fifth_input:  15
+ sixth_input:  8
+ 
+ fifth_input:  7
+ sixth_input:  22
+ 
+ fifth_input:  21
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+086
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  3
+ 
+ fifth_input:  15
+ sixth_input:  7
+ 
+ fifth_input:  8
+ sixth_input:  22
+ 
+ fifth_input:  22
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+087
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  4
+ 
+ fifth_input:  15
+ sixth_input:  6
+ 
+ fifth_input:  9
+ sixth_input:  22
+ 
+ fifth_input:  23
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+088
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  5
+ 
+ fifth_input:  15
+ sixth_input:  5
+ 
+ fifth_input:  10
+ sixth_input:  22
+ 
+ fifth_input:  24
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+089
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  6
+ 
+ fifth_input:  15
+ sixth_input:  4
+ 
+ fifth_input:  11
+ sixth_input:  22
+ 
+ fifth_input:  25
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+090
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  7
+ 
+ fifth_input:  15
+ sixth_input:  3
+ 
+ fifth_input:  12
+ sixth_input:  22
+ 
+ fifth_input:  26
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+091
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  8
+ 
+ fifth_input:  15
+ sixth_input:  2
+ 
+ fifth_input:  13
+ sixth_input:  22
+ 
+ fifth_input:  26
+ sixth_input:  17
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+092
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  9
+ 
+ fifth_input:  15
+ sixth_input:  1
+ 
+ fifth_input:  13
+ sixth_input:  21
+ 
+ fifth_input:  26
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+093
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  10
+ 
+ fifth_input:  16
+ sixth_input:  1
+ 
+ fifth_input:  13
+ sixth_input:  20
+ 
+ fifth_input:  26
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+094
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  11
+ 
+ fifth_input:  17
+ sixth_input:  1
+ 
+ fifth_input:  13
+ sixth_input:  19
+ 
+ fifth_input:  26
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+095
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  12
+ 
+ fifth_input:  18
+ sixth_input:  1
+ 
+ fifth_input:  13
+ sixth_input:  18
+ 
+ fifth_input:  26
+ sixth_input:  21
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+096
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  13
+ 
+ fifth_input:  18
+ sixth_input:  2
+ 
+ fifth_input:  13
+ sixth_input:  17
+ 
+ fifth_input:  25
+ sixth_input:  21
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+097
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  13
+ 
+ fifth_input:  18
+ sixth_input:  3
+ 
+ fifth_input:  13
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  21
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+098
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  13
+ 
+ fifth_input:  18
+ sixth_input:  4
+ 
+ fifth_input:  13
+ sixth_input:  15
+ 
+ fifth_input:  24
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+099
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  13
+ 
+ fifth_input:  18
+ sixth_input:  5
+ 
+ fifth_input:  12
+ sixth_input:  15
+ 
+ fifth_input:  24
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+100
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  13
+ 
+ fifth_input:  18
+ sixth_input:  6
+ 
+ fifth_input:  11
+ sixth_input:  15
+ 
+ fifth_input:  24
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+101
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  12
+ 
+ fifth_input:  19
+ sixth_input:  6
+ 
+ fifth_input:  10
+ sixth_input:  15
+ 
+ fifth_input:  23
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+102
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  11
+ 
+ fifth_input:  20
+ sixth_input:  6
+ 
+ fifth_input:  9
+ sixth_input:  15
+ 
+ fifth_input:  22
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+103
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  10
+ 
+ fifth_input:  20
+ sixth_input:  7
+ 
+ fifth_input:  8
+ sixth_input:  15
+ 
+ fifth_input:  21
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+104
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  9
+ 
+ fifth_input:  20
+ sixth_input:  8
+ 
+ fifth_input:  8
+ sixth_input:  16
+ 
+ fifth_input:  20
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+105
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  9
+ 
+ fifth_input:  20
+ sixth_input:  9
+ 
+ fifth_input:  8
+ sixth_input:  17
+ 
+ fifth_input:  19
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+106
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  9
+ 
+ fifth_input:  19
+ sixth_input:  9
+ 
+ fifth_input:  8
+ sixth_input:  18
+ 
+ fifth_input:  18
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+107
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  9
+ 
+ fifth_input:  18
+ sixth_input:  9
+ 
+ fifth_input:  8
+ sixth_input:  19
+ 
+ fifth_input:  18
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+108
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  9
+ 
+ fifth_input:  18
+ sixth_input:  10
+ 
+ fifth_input:  8
+ sixth_input:  20
+ 
+ fifth_input:  18
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+109
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  8
+ 
+ fifth_input:  18
+ sixth_input:  11
+ 
+ fifth_input:  8
+ sixth_input:  21
+ 
+ fifth_input:  19
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+110
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  7
+ 
+ fifth_input:  18
+ sixth_input:  12
+ 
+ fifth_input:  8
+ sixth_input:  22
+ 
+ fifth_input:  20
+ sixth_input:  20
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+111
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  6
+ 
+ fifth_input:  18
+ sixth_input:  13
+ 
+ fifth_input:  9
+ sixth_input:  22
+ 
+ fifth_input:  20
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+112
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  5
+ 
+ fifth_input:  19
+ sixth_input:  13
+ 
+ fifth_input:  10
+ sixth_input:  22
+ 
+ fifth_input:  20
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+113
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  4
+ 
+ fifth_input:  20
+ sixth_input:  13
+ 
+ fifth_input:  11
+ sixth_input:  22
+ 
+ fifth_input:  21
+ sixth_input:  18
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+114
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  3
+ 
+ fifth_input:  21
+ sixth_input:  13
+ 
+ fifth_input:  12
+ sixth_input:  22
+ 
+ fifth_input:  21
+ sixth_input:  17
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+115
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  2
+ 
+ fifth_input:  22
+ sixth_input:  13
+ 
+ fifth_input:  13
+ sixth_input:  22
+ 
+ fifth_input:  21
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+116
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  13
+ sixth_input:  1
+ 
+ fifth_input:  23
+ sixth_input:  13
+ 
+ fifth_input:  13
+ sixth_input:  21
+ 
+ fifth_input:  22
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+117
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  12
+ sixth_input:  1
+ 
+ fifth_input:  24
+ sixth_input:  13
+ 
+ fifth_input:  13
+ sixth_input:  20
+ 
+ fifth_input:  23
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+118
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  11
+ sixth_input:  1
+ 
+ fifth_input:  24
+ sixth_input:  12
+ 
+ fifth_input:  13
+ sixth_input:  19
+ 
+ fifth_input:  24
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+119
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  10
+ sixth_input:  1
+ 
+ fifth_input:  24
+ sixth_input:  11
+ 
+ fifth_input:  13
+ sixth_input:  18
+ 
+ fifth_input:  25
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9
+ 
+Sortie standard :
+A
+120
+121
+Sortie d'erreur :
+ first_input:  #
+ second_input:  #
+ third_input:  _
+ fourth_input:  _
+ 
+ fifth_input:  9
+ sixth_input:  1
+ 
+ fifth_input:  24
+ sixth_input:  10
+ 
+ fifth_input:  13
+ sixth_input:  17
+ 
+ fifth_input:  26
+ sixth_input:  16
+ 
+ fifth_input:  24
+ sixth_input:  9

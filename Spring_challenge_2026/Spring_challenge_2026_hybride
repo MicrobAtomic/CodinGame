@@ -2,9 +2,9 @@ import sys
 from collections import deque
 
 
-# The grid is small, so we can afford a little pathfinding every turn.
-# Silver league variant: front-load training, then build and maintain a
-# compact orchard against the shack. Water is a bonus only inside that orchard.
+# Hybrid silver bot. If both shacks are very close, it plays chop-first and
+# denies every tree around both camps. Otherwise it keeps the classic orchard
+# plan from the silver bot.
 
 RESOURCE_TYPES = ("PLUM", "LEMON", "APPLE", "BANANA", "IRON", "WOOD")
 TRAIN_FRUITS = ("PLUM", "LEMON", "APPLE")
@@ -42,6 +42,16 @@ SABOTEUR_START_TURN = 95
 SABOTEUR_MIN_TROLLS = 4
 SABOTEUR_ENEMY_RADIUS = 4
 SABOTEUR_MAX_TRAVEL = 80
+CLOSE_CAMP_DISTANCE = 4
+CLOSE_TROLL_TARGET = 6
+CLOSE_CHOP_PLANS = (
+    (1, 2, 1, 2),
+    (1, 1, 1, 2),
+    (1, 2, 1, 1),
+    (1, 1, 1, 1),
+)
+
+close_camp_mode = False
 
 
 def ceil_div(a, b):
@@ -63,6 +73,8 @@ def can_pay(cost, stock):
 
 
 def training_options(troll_count, turn, orchard_size=0):
+    if close_camp_mode and troll_count < CLOSE_TROLL_TARGET and turn <= CATCHUP_TRAIN_END:
+        return list(CLOSE_CHOP_PLANS) + [EARLY_TRAIN_PLAN, FALLBACK_TRAIN_PLAN]
     if troll_count < EARLY_TROLL_TARGET and turn <= TRAIN_RUSH_END:
         return [EARLY_TRAIN_PLAN, FALLBACK_TRAIN_PLAN]
     if troll_count < EARLY_TROLL_TARGET and turn <= CATCHUP_TRAIN_END:
@@ -146,6 +158,16 @@ if enemy_base is not None:
         cell = (enemy_base[0] + dx, enemy_base[1] + dy)
         if cell in walkable:
             enemy_drop_cells.append(cell)
+
+camp_distance = min(
+    (
+        0 if a == b else distances_from.get(a, {}).get(b, INF)
+        for a in drop_cells
+        for b in enemy_drop_cells
+    ),
+    default=INF,
+)
+close_camp_mode = camp_distance <= CLOSE_CAMP_DISTANCE
 
 mine_spots = []
 for mx, my in iron_cells:
@@ -298,6 +320,8 @@ def best_plant_cell(pos, reserved, turn):
 
 
 def should_keep_orchard_tree(tree, turn):
+    if close_camp_mode:
+        return False
     if tree["pos"] not in plant_cells:
         return False
     if turn < WOOD_HARVEST_TURN:
@@ -305,6 +329,56 @@ def should_keep_orchard_tree(tree, turn):
     if turn < WOOD_ALL_IN_TURN:
         return tree["size"] < 4
     return tree["size"] < 3
+
+
+def close_tree_score(tree, troll, travel, turn):
+    home_distance = distance_to_drop(tree["pos"])
+    enemy_distance = distance_to_enemy_camp(tree["pos"])
+    chop_turns = ceil_div(max(1, tree["health"]), max(1, troll["chop"]))
+
+    score = 90 * tree["size"]
+    if home_distance <= 2:
+        score += 1500
+    elif home_distance <= ORCHARD_RADIUS + 1:
+        score += 900 - 85 * home_distance
+
+    if enemy_distance <= 2:
+        score += 1250
+    elif enemy_distance <= ORCHARD_RADIUS + 2:
+        score += 760 - 75 * enemy_distance
+
+    if tree["fruits"] > 0:
+        score += 480 + 95 * tree["fruits"]
+    if tree["size"] >= 3:
+        score += 170
+    if tree["pos"] in good_plant_cells:
+        score += 140
+    if turn >= ENDGAME_LOCAL_TURN:
+        score += 120 * tree["size"]
+
+    score -= 42 * ceil_div(travel, troll["speed"])
+    score -= 24 * chop_turns
+    return score
+
+
+def best_close_chop_tree(troll, reserved, reserved_chop_power, turn):
+    best_tree = None
+    best_score = -INF
+    pos = troll["pos"]
+    for tree in trees:
+        if reserved_chop_power.get(tree["index"], 0) >= tree["health"]:
+            continue
+        target = tree["pos"]
+        if target in reserved and target != pos:
+            continue
+        travel = dist(pos, target)
+        if travel >= INF:
+            continue
+        score = close_tree_score(tree, troll, travel, turn)
+        if score > best_score:
+            best_score = score
+            best_tree = tree
+    return best_tree
 
 
 def carried_total(troll):
@@ -430,6 +504,7 @@ while True:
 
     if (
         saboteur_id is None
+        and not close_camp_mode
         and enemy_drop_cells
         and turn >= SABOTEUR_START_TURN
         and len(my_trolls) >= SABOTEUR_MIN_TROLLS
@@ -475,7 +550,7 @@ while True:
         free = max(0, capacity - cargo)
         orchard_size = home_orchard_count + planned_plants + planned_seed_pickups
         core_ready = len(my_trolls) >= EARLY_TROLL_TARGET or turn > CATCHUP_TRAIN_END
-        allow_planting = turn >= EARLY_ORCHARD_START_TURN and (
+        allow_planting = not close_camp_mode and turn >= EARLY_ORCHARD_START_TURN and (
             len(my_trolls) >= 3 or turn > 80
         )
         seed = (
@@ -483,6 +558,47 @@ while True:
             if allow_planting
             else None
         )
+
+        if close_camp_mode and troll["chop"] > 0:
+            if cargo > 0 and is_next_to_base(pos):
+                actions.append(f"DROP {tid}")
+                continue
+
+            if cargo > 0 and (free == 0 or troll["carry"]["WOOD"] > 0 or turn > 270):
+                target = best_drop_cell(pos, reserved_destinations)
+                if target == base:
+                    actions.append(f"MOVE {tid} {base[0]} {base[1]}")
+                else:
+                    reserved_destinations.add(target)
+                    actions.append(f"MOVE {tid} {target[0]} {target[1]}")
+                continue
+
+            target_tree = best_close_chop_tree(
+                troll,
+                reserved_destinations,
+                reserved_chop_power,
+                turn,
+            )
+            if target_tree is not None:
+                target = target_tree["pos"]
+                reserved_chop_power[target_tree["index"]] = (
+                    reserved_chop_power.get(target_tree["index"], 0) + troll["chop"]
+                )
+                if target == pos:
+                    actions.append(f"CHOP {tid}")
+                else:
+                    reserved_destinations.add(target)
+                    actions.append(f"MOVE {tid} {target[0]} {target[1]}")
+                continue
+
+            if cargo > 0:
+                target = best_drop_cell(pos, reserved_destinations)
+                if target == base:
+                    actions.append(f"MOVE {tid} {base[0]} {base[1]}")
+                else:
+                    reserved_destinations.add(target)
+                    actions.append(f"MOVE {tid} {target[0]} {target[1]}")
+            continue
 
         if tid == saboteur_id and troll["chop"] > 0:
             if cargo > 0 and is_next_to_base(pos):
